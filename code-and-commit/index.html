@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nocturnals Club | STI CDO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+
+        :root {
+            --primary: #667eea;
+            --secondary: #764ba2;
+            --dark: #1a1a2e;
+            --light: #f4f4f9;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark);
+            color: var(--light);
+            line-height: 1.6;
+        }
+
+        
+        .hero {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.8) 0%, rgba(118, 75, 162, 0.8) 100%),
+                url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            backdrop-filter: blur(5px);
+        }
+
+        
+        .container {
+            max-width: 900px;
+            margin: -50px auto 50px auto;
+            background: #ffffff;
+            color: #333;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+        }
+
+        .story {
+            font-size: 1.1rem;
+            color: #555;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        
+        .facts-header {
+            text-align: center;
+            font-weight: 700;
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        .grid-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .grid-list li {
+            background: #f8f9fa;
+            padding: 20px;
+            border-left: 5px solid var(--primary);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .grid-list li:hover {
+            transform: translateY(-5px);
+            background: #eff2ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="hero">
+        <a href="officers.html">
+            <img src="./images/logos/nocturnals.png"  style="width: 200px; height: auto; margin-bottom: 1px;">
+        </a>
+        
+        <h1>Nocturnals Club</h1>
+        <p class="tagline">Code your life and make it count!</p>
+    </header>
+
+    <div class="container">
+        <p class="story">
+            Founded in late 2022 at <strong>STI College Cagayan De Oro</strong>, we are a student organization dedicated
+            to fostering creativity and leadership. We unite the "night owls" to provide a platform for showcasing
+            talents, technical skills, and pure innovation.
+        </p>
+
+        <h2 class="facts-header">Why Join Us?</h2>
+        <ul class="grid-list">
+            <li><strong>🎮 E-Sports:</strong> We dominate in Call of Duty and Mobile Legends.</li>
+            <li><strong>💻 Daily Sprints:</strong> We implement practice coding daily to sharpen our minds.</li>
+            <li><strong>🏆 Major Events:</strong> From Intrams to the Clash of Clubs, we make our mark.</li>
+            <li><strong>🤝 Collaboration:</strong> We believe in the power of working together with other tech-heads.
+            </li>
+            <li><strong>🚀 Growth:</strong> At the Nocturnals, we never stop learning.</li>
+        </ul>
+
+        <a href="https://www.facebook.com/nocturnalsclub/" target="_blank">
+            Visit our Facebook Page
+        </a>
+    </div>
+
+    <footer>
+        &copy;  Nocturnals Club - STI College Cagayan De Oro
+    </footer>
+   
+
+</body>
+
+</html>
